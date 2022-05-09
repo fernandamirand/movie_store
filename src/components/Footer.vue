@@ -1,16 +1,12 @@
-
-
-
 <template>
 
   <footer class="footer">
+
      <h1>LOGO</h1>
      <p>Todos os direitos resevados</p>
      <p>2022©</p>
-       
+     
   </footer> 
-
-
 
 </template>
 
@@ -29,7 +25,6 @@
         color: white;
         align-self: flex-end;
         font-family: sans-serif;
-        
    }
 
    .logo{
@@ -37,7 +32,6 @@
      flex-direction: row;
      align-items: center;
      justify-content: center;
-   
    }
 
     .text{
@@ -45,10 +39,6 @@
       flex-direction: column;
       align-items: center;
       color: white;
-      
-     
-      
     }
-
 
 </style>

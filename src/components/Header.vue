@@ -1,28 +1,23 @@
-
-
 <template>
-  <div class="header">
-      
-      <strong class="logo">LOGO</strong>
 
+  <div class="header">
+
+      <strong class="logo">LOGO</strong>
       <div class="search-bar">
           <input type="text" class="input" placeholder="Pesquisa"/>
           <a href=""><img class="icon-search" src="../assets/search-icon.png"/></a>
-          
       </div>
 
       <div class="links">
       <a href="" class="favoritos"><img class="heart" src="../assets/heart2.png"/></a>
-      <div class="carrinho">
+      <a class="carrinho">
           🛒
           <div class="carrinho-number">
             <p>2</p>
           </div>
-      </div>
+      </a>
       </div>
   </div> 
-
-
 
 </template>
 
@@ -68,15 +63,15 @@
        padding: 5px;
    }
 
-   .input::placeholder {
-      color: #c7d0d7;
-}
+    .input::placeholder {
+       color: #c7d0d7;
+    }
 
-.input:focus{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-} 
+    .input:focus{
+       box-shadow: 0 0 0 0;
+       border: 0 none;
+       outline: 0;
+   } 
 
    .icon-search{
        width: 15px;
@@ -96,6 +91,7 @@
     .carrinho {
         position: relative;
         padding: 5px;
+        cursor: pointer;
     }
 
    .carrinho-number{
@@ -109,13 +105,11 @@
        color: #4f5b66;
        font-size: 10px;
        text-align: center;
-      
    }
 
 
    .favoritos{
-       text-decoration: none;
-       
+       text-decoration: none; 
    }
 
    @media (max-width: 500px) {
@@ -124,25 +118,17 @@
     display: flex;
     flex-direction: column;
     height: 110px;
-    align-items: center;
-    
-    
+    align-items: center;  
   }
 
   .logo{
     padding-top: 10px;
     margin-right: 35px;
-
   }
 
   .links{
        padding-bottom: 5px;
    }
-
-   
-
-
-
 }
 
 

@@ -23,16 +23,11 @@
 </div>
 </template>
 
-
-
-
 <script>
 </script>
    
 
-
 <style>
-
 .all {
     display: flex;
     align-items: center;
@@ -161,27 +156,5 @@
     background-color: #900703;
     cursor: pointer;
 }
-
-@media (max-width: 500px) {
-  .all{
-
- }
-
-
- }
-
-
- @media (max-width: 600px) {
-  .all{
-
- }
- }
-
-
- @media (max-width: 750px){
-     .all{
-         
-         }
- }
 
 </style>
